@@ -1,0 +1,20 @@
+{
+  "name": "fastify-start",
+  "version": "0.2.1",
+  "description": "fassstify cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "yp",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^2.15.1",
+    "fastify-plugin": "^1.6.0",
+    "fastify-swagger": "^2.4.0",
+    "fs-extra": "^8.1.0"
+  }
+}

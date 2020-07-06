@@ -1,0 +1,20 @@
+{
+  "name": "fastify-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "fastify-start": "^0.1.2",
+    "mongoose": "^5.9.21",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set APP_ENV=dev&nodemon --delay 300ms app.js",
+    "start": "set APP_ENV=pro&set prefix=/api/app&node app.js",
+    "startpm2": "set APP_ENV=pro&pm2 start app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
