@@ -20,7 +20,12 @@ module.exports = {
 	// 	},
 	// ],
 	// redis: [CONF.redis.oauth],
-	// sequelize: {
-	// 	client: [CONF.mysqlDB.oauth],
-	// },
+	sequelize: [{
+		name:'default',
+		client: CONF.mysqlDB.oauth
+	},
+	{
+		name:'test', //文件夹     /model/router@test/xxx.js     router@test :文件路径  router  @test:使用 test数据库
+		client: CONF.mysqlDB.oauth
+	}]
 };

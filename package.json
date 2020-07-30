@@ -1,8 +1,12 @@
 {
   "name": "fastify-start",
-  "version": "0.2.1",
+  "version": "1.0.5",
   "description": "fassstify cli tool",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wow30801412/fastifycli"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +19,11 @@
     "fastify": "^2.15.1",
     "fastify-plugin": "^1.6.0",
     "fastify-swagger": "^2.4.0",
-    "fs-extra": "^8.1.0"
+    "fs-extra": "^8.1.0",
+    "ioredis": "^4.17.3",
+    "mongoose": "^5.9.25",
+    "mysql2": "^2.1.0",
+    "pino-pretty": "^4.1.0",
+    "sequelize": "^6.3.3"
   }
 }
